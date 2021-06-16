@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: bolder;
+    padding-top: 150px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 60px;
+    color: crimson;
+}
+
+h4{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 100px;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.startBtn {
+    position: relative;
+    margin-left: 1050px;
+    margin-top: 50px;
+    background-color: rebeccapurple;
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    width: 6vw;
+    height: 4vh;
+}
+
+.timer {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.answers {
+    text-align: center;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rebeccapurple;
+    color: cornsilk;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    width: 14vw;
+    height: 8vh;
+    margin: 10px;
+    margin-left: 950px;
+    margin-top: 75px;
+}
+
+.score-card {
+    visibility: hidden;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+input[type=text] {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#score {
+    visibility: hidden;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
