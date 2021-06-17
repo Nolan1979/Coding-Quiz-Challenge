@@ -1,4 +1,4 @@
-#This a Coding Quiz Challenge.
+This is a Coding Quiz Challenge.
 
 Test your knowledge of coding with this quiz!
 
