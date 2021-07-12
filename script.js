@@ -34,7 +34,7 @@ const questions = [
 startBtnEl.addEventListener("click", () => {
   setTime();
   hideIntroMessage();
-  showQuestion()
+  showQuestion();
 });
 
 
@@ -108,7 +108,7 @@ function stopQuiz() {
 
   var questionContainer = document.getElementById("question-div");
   questionContainer.setAttribute("style", "display: none");
-  
+
   time = 1
 }
 var submitButton = document.querySelector("#submit")
@@ -116,19 +116,23 @@ var submitButton = document.querySelector("#submit")
 submitButton.addEventListener("click", function (event) {
   event.preventDefault();
   setScore()
-  
+
 
   var initials = document.querySelector("#initials").value
   localStorage.setItem("initials", initials);
- 
+
 
 })
 
-function setScore () {
+function setScore() {
   scoreEl.textContent = "Score:" + score;
-  
+
 }
 
+resBtnEl = document.getElementById("reset")
 
+reset.addEventListener("click", function () {
+    location.reload();
+});
 
 
